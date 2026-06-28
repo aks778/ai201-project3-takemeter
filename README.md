@@ -134,3 +134,7 @@ I intended the model to learn whether a claim is backed by evidence (`analysis`)
 
 1. **Annotation assistance:** pre-labeled each post for my review and then I went in and checked each one manually and fixed the ones that didn't quite match up correctly
 2. **Failure analysis:** grouped misclassifications into patterns, which I then verified against the actual posts and quantified before including here.
+
+## Demo Link
+
+https://www.loom.com/share/8df33783f52a4c40ab28c4847f74898a
