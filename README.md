@@ -96,8 +96,8 @@ Accuracy rose (0.517 → 0.600), but the fine-tuned model learned to predict `re
 
 | Post snippet | True label | Predicted | Confidence | Correct? |
 |---|---|---|---|---|
-| "Which songs would play at your funeral" — a personal list of meaningful songs, no general claim | `reaction` | `reaction` | `[conf]` | ✅ |
-| "Noisy Goth band Crippling Alcoholism… it took me a few listens but now I'm OBSESSED" | `reaction` | `reaction` | `[conf]` | ✅ |
+| "Which songs would play at your funeral" — a personal list of meaningful songs, no general claim | `reaction` | `reaction` | 0.38 | ✅ |
+| "Noisy Goth band Crippling Alcoholism… it took me a few listens but now I'm OBSESSED" | `reaction` | `reaction` | 0.42 | ✅ |
 | "Playboi Carti is deadass the best to ever do it… Whole Lotta Red is the best album" | `hot_take` | `reaction` | 0.38 | ❌ |
 | "Songs that are ruined for you by something small" — sets up *why* small details break a song | `analysis` | `reaction` | 0.37 | ❌ |
 | "What makes these three pop songs so good? (with AlbumOfTheYear scores)" | `analysis` | `reaction` | 0.38 | ❌ |
